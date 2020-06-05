@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>testone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-datetime
+    value="2020-06-05T15:43:40.394Z"
+    display-timezone="utc"
+  ></ion-datetime>
+  <ion-item>
+    <ion-label>MM DD YY</ion-label>
+    <ion-datetime
+      displayFormat="MM DD YY"
+      placeholder="Select Date"
+    ></ion-datetime>
+  </ion-item>
+  <ion-input placeholder="Username"></ion-input>
+  <ion-input placeholder="password" type="password"></ion-input>
+  <ion-button (click)="onClick()">Login</ion-button>
+</ion-content>
